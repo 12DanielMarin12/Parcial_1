@@ -29,7 +29,7 @@ public class Node implements LinkedListNode {
     }
     
     public String toString(){
-        return getObject() + ", ";
+        return getObject()+" ";
     }
 
     public Object getObject() {

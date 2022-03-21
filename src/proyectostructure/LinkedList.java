@@ -200,7 +200,7 @@ public interface LinkedList {
      * retorna un string con el contenido del nodo invertido
      * @return
      */
-    LinkedList toStringReverse();
+    String toStringReverse();
     
     Node getHead();
     void setHead(Node nodo);
@@ -210,7 +210,7 @@ public interface LinkedList {
     void setSize(int i);
     
     
-    
+    String toStringA();
     //METODOS AGREGADOR PARA LA PILA
     Node peek();
     
